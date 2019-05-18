@@ -1,3 +1,7 @@
-import Logo from "./Logo";
+import Logo from "./Logo/Logo";
+import Nav from "./Nav/Nav";
 
-export default Logo;
+export {
+  Logo,
+  Nav
+};

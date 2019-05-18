@@ -1,0 +1,17 @@
+#how-it-works, #browse {
+  width: 15%;
+  float: left;
+  text-align: center;
+}
+
+#logo {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+#cart, #login {
+  width: 15%;
+  float: right;
+  text-align: center;
+}
