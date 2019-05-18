@@ -6,9 +6,11 @@ const Home = () => {
   return(
     <div className="container">
       <section>
-        <h1>
-          Energy-efficient products at your fingertips.
-        </h1>
+        <div class="banner">
+          <h1>
+            Energy-efficient products at your fingertips.
+          </h1>
+        </div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
            Officiis iure quibusdam, quis tempore ut velit fugiat?
@@ -23,7 +25,7 @@ const Home = () => {
         </h2>
         <section class="products">
           <span class="product">
-            <a href="https://placeholder.com"><img src="https:/via.placeholder.com/250"></img></a>
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250"></img></a>
             <p>
               <span>Refrigerator</span>
               <span>$45/month</span>
@@ -33,7 +35,7 @@ const Home = () => {
             </p>
           </span>
           <span class="product">
-            <a href="https://placeholder.com"><img src="https:/via.placeholder.com/250"></img></a>
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250"></img></a>
             <p>
               <span>Electric stove</span>
               <span>$82/month</span>
@@ -43,7 +45,7 @@ const Home = () => {
             </p>
           </span>
           <span class="product">
-            <a href="https://placeholder.com"><img src="https:/via.placeholder.com/250"></img></a>
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250"></img></a>
             <p>
               <span>Dishwasher</span>
               <span>$65/month</span>
@@ -55,7 +57,7 @@ const Home = () => {
         </section>
       </section>
       <section class="img">
-        <a href="https://placeholder.com"><img src="https:/via.placeholder.com/1000x250"></img></a>
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/1000x250"></img></a>
       </section>
       <section class="how-it-works">
         <h2>
@@ -63,7 +65,7 @@ const Home = () => {
         </h2>
         <section class="steps">
           <span class="step">
-            <a href="https://placeholder.com"><img src="https:/via.placeholder.com/250"></img></a>
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250"></img></a>
             <p>
               <span>Lorem ipsum dolor</span>
             </p>
@@ -76,7 +78,7 @@ const Home = () => {
             </p>
           </span>
           <span class="step">
-            <a href="https://placeholder.com"><img src="https:/via.placeholder.com/250"></img></a>
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250"></img></a>
             <p>
               <span>Lorem ipsum dolor</span>
             </p>
@@ -89,7 +91,7 @@ const Home = () => {
             </p>
           </span>
           <span class="step">
-            <a href="https://placeholder.com"><img src="https:/via.placeholder.com/250"></img></a>
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250"></img></a>
             <p>
               <span>Lorem ipsum dolor</span>
             </p>
@@ -104,7 +106,7 @@ const Home = () => {
         </section>
       </section>
       <section class="img">
-        <a href="https://placeholder.com"><img src="https:/via.placeholder.com/1000x250"></img></a>
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/1000x250"></img></a>
       </section>
       <section class="how-it-works">
         <h2>
