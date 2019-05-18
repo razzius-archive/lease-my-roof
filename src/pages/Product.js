@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-export default () => (
+export default props => (
   <div style={{ maxWidth: "450px", margin: "auto" }}>
     <Link
       to="/browse"
@@ -30,6 +30,7 @@ export default () => (
     <div style={{ display: "flex", justifyContent: "space-between" }}>
       <h1 style={{ display: "inline" }}>Product</h1>
       <span
+        onClick={props.addToCart}
         className="button"
         style={{
           height: "20px",
