@@ -28,10 +28,15 @@ const ProductCard = props => (
           zIndex: 1
         }}
         onClick={e => {
+          // this stuff doesn't work so the above div has an onClick... bad for a11y
           e.cancelBubble = true
           e.stopPropagation()
           e.nativeEvent.stopImmediatePropagation()
-          props.addToCart(props.name)
+          props.addToCart({
+            name: props.name,
+            price: props.price,
+            savings: props.savings
+          })
         }}
       >
         Add To Cart

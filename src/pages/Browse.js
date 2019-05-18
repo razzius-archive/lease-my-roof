@@ -1,5 +1,6 @@
 import React from "react"
 import ProductCard from "../components/ProductCard"
+import { Link } from "react-router-dom"
 
 const ProductRow = props => (
   <div
@@ -17,6 +18,11 @@ const ProductRow = props => (
 
 export default props => (
   <div>
+    <h1>
+      The cart has {props.cart.length} things.
+      <Link to="/cart">Checkout</Link>
+    </h1>
+
     <ProductRow>
       <ProductCard
         addToCart={props.addToCart}
