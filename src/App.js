@@ -1,7 +1,7 @@
 import React from "react"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Logo from "./components"
-import { Browse, Home, NoMatch, Quotes, User } from "./pages"
+import { Browse, Home, NoMatch, Quotes, User, Product } from "./pages"
 import "./App.css"
 
 // splash page
@@ -14,6 +14,7 @@ function App() {
         <Route exact path="/user" component={User} />
         <Route exact path="/quotes" component={Quotes} />
         <Route exact path="/browse" component={Browse} />
+        <Route path="/products/:id" component={Product} />
         <Route component={NoMatch} />
       </Switch>
     </Router>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import "./ProductCard.css"
 
 export default props => (
-  <Link style={{ textDecoration: "none" }}>
+  <Link style={{ textDecoration: "none" }} to="products/1">
     <div style={{ position: "relative", width: "250px" }}>
       <img src="http://placehold.it/250" />
       <div
