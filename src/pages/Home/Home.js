@@ -11,44 +11,37 @@ const Home = () => {
             Energy-efficient products at your fingertips.
           </h1>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-           Officiis iure quibusdam, quis tempore ut velit fugiat?
-           Exercitationem impedit, illum nam quae perferendis nesciunt dolores sunt ad dignissimos quam blanditiis aliquam tempora autem error doloribus sit ducimus velit nobis neque aliquid.
-           Laborum soluta quidem reprehenderit molestias earum!
-           Architecto reiciendis sint voluptates.
-        </p>
+        <h3>
+          Mobi is a smart energy efficiency subscription with flexible options.
+        </h3>
       </section>
       <section class="explore-products">
         <h2>
-          Explore Products
+          Featured Products
         </h2>
         <section class="products">
           <span class="product">
-            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250"></img></a>
+            <Link to=""><img src="/assets/images/Nest HD.jpg"></img></Link>
             <p>
-              <span>Refrigerator</span>
-              <span>$45/month</span>
+              <span>Thermostat - $45/month</span>
             </p>
             <p>
               Estimated $90/year savings
             </p>
           </span>
           <span class="product">
-            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250"></img></a>
+            <Link to=""><img src="/assets/images/lifx_a19.jpg"></img></Link>
             <p>
-              <span>Electric stove</span>
-              <span>$82/month</span>
+              <span>Electric stove - $82/month</span>
             </p>
             <p>
               Estimated $90/year savings
             </p>
           </span>
           <span class="product">
-            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250"></img></a>
+            <Link to=""><img src="/assets/images/smappee-energy-monitor.jpg"></img></Link>
             <p>
-              <span>Dishwasher</span>
-              <span>$65/month</span>
+              <span>Dishwasher - $65/month</span>
             </p>
             <p>
               Estimated $90/year savings
@@ -56,57 +49,43 @@ const Home = () => {
           </span>
         </section>
       </section>
-      <section class="img">
-        <a href="https://placeholder.com"><img src="https://via.placeholder.com/1000x250"></img></a>
-      </section>
+      <img src="/assets/images/banner1.jpg"></img>
       <section class="how-it-works">
         <h2>
           How It Works
         </h2>
         <section class="steps">
           <span class="step">
-            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250"></img></a>
+            <img src="/assets/images/HIW1.png"></img>
             <p>
-              <span>Lorem ipsum dolor</span>
+              <span>Browse Selection</span>
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-               Officiis iure quibusdam, quis tempore ut velit fugiat?
-               Exercitationem impedit, illum nam quae perferendis nesciunt dolores sunt ad dignissimos quam blanditiis aliquam tempora autem error doloribus sit ducimus velit nobis neque aliquid.
-               Laborum soluta quidem reprehenderit molestias earum!
-               Architecto reiciendis sint voluptates.
+              We’ve curated a select list of energy-efficient products to make finding the right appliance for you that much easier.
             </p>
           </span>
           <span class="step">
-            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250"></img></a>
+            <img src="/assets/images/HIW2.png"></img>
             <p>
-              <span>Lorem ipsum dolor</span>
+              <span>Choose Appliances</span>
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-               Officiis iure quibusdam, quis tempore ut velit fugiat?
-               Exercitationem impedit, illum nam quae perferendis nesciunt dolores sunt ad dignissimos quam blanditiis aliquam tempora autem error doloribus sit ducimus velit nobis neque aliquid.
-               Laborum soluta quidem reprehenderit molestias earum!
-               Architecto reiciendis sint voluptates.
+              Choose the appliances that you like and add them to your cart.
             </p>
           </span>
           <span class="step">
-            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250"></img></a>
+            <img src="/assets/images/HIW3.png"></img>
             <p>
-              <span>Lorem ipsum dolor</span>
+              <span>Installation</span>
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-               Officiis iure quibusdam, quis tempore ut velit fugiat?
-               Exercitationem impedit, illum nam quae perferendis nesciunt dolores sunt ad dignissimos quam blanditiis aliquam tempora autem error doloribus sit ducimus velit nobis neque aliquid.
-               Laborum soluta quidem reprehenderit molestias earum!
-               Architecto reiciendis sint voluptates.
+              We’ll come to your house and install the appliances for you and teach you how to use them.
             </p>
           </span>
         </section>
       </section>
       <section class="img">
-        <a href="https://placeholder.com"><img src="https://via.placeholder.com/1000x250"></img></a>
+        <img src="/assets/images/banner2.jpg"></img>
       </section>
       <section class="how-it-works">
         <h2>
