@@ -17,7 +17,7 @@ function App() {
         <Route component={NoMatch} />
       </Switch>
     </Router>
-  );
+  )
 }
 
 export default App;
