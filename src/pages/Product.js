@@ -1,7 +1,28 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 export default () => (
   <div style={{ maxWidth: "450px", margin: "auto" }}>
+    <Link
+      to="/browse"
+      style={{
+        marginBottom: "20px",
+        textDecoration: "none",
+        display: "block"
+      }}
+    >
+      <span
+        className="button"
+        style={{
+          background: "white",
+          padding: "10px",
+          cursor: "pointer",
+          border: "1px solid black"
+        }}
+      >
+        Back
+      </span>
+    </Link>
     <img
       src="http://placehold.it/400x400"
       style={{ margin: "auto", display: "block" }}
@@ -9,7 +30,7 @@ export default () => (
     <div style={{ display: "flex", justifyContent: "space-between" }}>
       <h1 style={{ display: "inline" }}>Product</h1>
       <span
-        class="button"
+        className="button"
         style={{
           height: "20px",
           background: "white",
