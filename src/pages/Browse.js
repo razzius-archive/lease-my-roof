@@ -1,17 +1,45 @@
 import React from "react"
 import ProductCard from "../components/ProductCard"
 
-export default () => (
+const ProductRow = props => (
   <div
     style={{
       display: "flex",
-      maxWidth: "700px",
+      maxWidth: "800px",
       margin: "auto",
-      justifyContent: "space-between"
+      justifyContent: "space-around",
+      paddingBottom: "2em"
     }}
   >
-    <ProductCard name="1" />
-    <ProductCard name="2" />
-    <ProductCard name="3" />
+    {props.children}
+  </div>
+)
+
+function addToCart(name) {
+  console.log(name)
+}
+
+export default () => (
+  <div>
+    <ProductRow>
+      <ProductCard
+        addToCart={addToCart}
+        name="Product 1"
+        price="$10"
+        savings="$15"
+      />
+      <ProductCard
+        addToCart={addToCart}
+        name="Product 2"
+        price="$20"
+        savings="$15"
+      />
+      <ProductCard
+        addToCart={addToCart}
+        name="Product 3"
+        price="$30"
+        savings="$15"
+      />
+    </ProductRow>
   </div>
 )

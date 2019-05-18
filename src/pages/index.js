@@ -5,5 +5,6 @@ import Login from "./Login/Login"
 import NoMatch from "./NoMatch"
 import Quotes from "./Quotes/Quotes"
 import User from "./User"
+import Product from "./Product"
 
-export { Browse, Cart, Home, Login, NoMatch, Quotes, User }
+export { Browse, Cart, Home, Login, NoMatch, Product, Quotes, User }

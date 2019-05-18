@@ -1,0 +1,7 @@
+.button:hover {
+  box-shadow: 0 0 5px 1px gray;
+}
+
+.button {
+  transition: all 0.5s;
+}
