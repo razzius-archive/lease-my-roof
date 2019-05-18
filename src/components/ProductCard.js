@@ -1,10 +1,18 @@
 import React from "react"
 
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import "./ProductCard.css"
 
-export default props => (
-  <Link style={{ textDecoration: "none" }} to="products/1">
+import { withRouter } from "react-router-dom"
+import { Product } from "../pages"
+
+const ProductCard = props => (
+  <div
+    style={{ textDecoration: "none", cursor: "pointer" }}
+    onClick={() => {
+      props.history.push("products/1")
+    }}
+  >
     <div style={{ position: "relative", width: "250px" }}>
       <img src="http://placehold.it/250" />
       <div
@@ -16,10 +24,19 @@ export default props => (
           background: "white",
           padding: "10px",
           cursor: "pointer",
-          border: "1px solid black"
+          border: "1px solid black",
+          zIndex: 1
         }}
         onClick={e => {
-          props.addToCart(props.name)
+          // this stuff doesn't work so the above div has an onClick... bad for a11y
+          e.cancelBubble = true
+          e.stopPropagation()
+          e.nativeEvent.stopImmediatePropagation()
+          props.addToCart({
+            name: props.name,
+            price: props.price,
+            savings: props.savings
+          })
         }}
       >
         Add To Cart
@@ -32,5 +49,7 @@ export default props => (
     <div style={{ textAlign: "center", color: "lightgreen" }}>
       You save {props.savings}
     </div>
-  </Link>
+  </div>
 )
+
+export default withRouter(ProductCard)

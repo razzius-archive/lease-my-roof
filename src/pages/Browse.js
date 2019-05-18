@@ -1,5 +1,6 @@
 import React from "react"
 import ProductCard from "../components/ProductCard"
+import { Link } from "react-router-dom"
 
 const ProductRow = props => (
   <div
@@ -15,27 +16,28 @@ const ProductRow = props => (
   </div>
 )
 
-function addToCart(name) {
-  console.log(name)
-}
-
-export default () => (
+export default props => (
   <div>
+    <h1>
+      The cart has {props.cart.length} things.
+      <Link to="/cart">Checkout</Link>
+    </h1>
+
     <ProductRow>
       <ProductCard
-        addToCart={addToCart}
+        addToCart={props.addToCart}
         name="Product 1"
         price="$10"
         savings="$15"
       />
       <ProductCard
-        addToCart={addToCart}
+        addToCart={props.addToCart}
         name="Product 2"
         price="$20"
         savings="$15"
       />
       <ProductCard
-        addToCart={addToCart}
+        addToCart={props.addToCart}
         name="Product 3"
         price="$30"
         savings="$15"
