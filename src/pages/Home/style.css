@@ -3,6 +3,10 @@
   margin-left: 25%;
 }
 
+.banner {
+  background: gray;
+}
+
 h1, h2, p, .products, a, .steps, .testimonials, .testimonial {
   display: flex;
   justify-content: center;
