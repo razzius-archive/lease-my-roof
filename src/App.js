@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Nav } from "./components";
-import { Home, NoMatch, Quotes, User } from "./pages";
+import { Home, Browse, Search, Login, NoMatch } from "./pages";
 import './App.css';
 
 // splash page
