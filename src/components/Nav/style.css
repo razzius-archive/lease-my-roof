@@ -1,5 +1,16 @@
+nav {
+  padding: 15px 0 15px 0;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
 #how-it-works, #browse {
   width: 15%;
+  padding-top: 30px;
   float: left;
   text-align: center;
 }
@@ -12,6 +23,7 @@
 
 #cart, #login {
   width: 15%;
+  padding-top: 30px;
   float: right;
   text-align: center;
 }
