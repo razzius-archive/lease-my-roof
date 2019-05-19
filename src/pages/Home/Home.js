@@ -46,6 +46,15 @@ const Home = () => {
         </section>
       </section>
       <img src="/assets/images/banner1.jpg" style={{ maxWidth: "100%" }} />
+      <img
+        style={{
+          position: "relative",
+          top: "-320px",
+          left: "52%",
+          width: "250px"
+        }}
+        src="https://files.slack.com/files-pri/TJTC9UDME-FJMACM2TT/circular_animate.gif"
+      />
       <section class="how-it-works">
         <h2>How It Works</h2>
         <section class="steps">
