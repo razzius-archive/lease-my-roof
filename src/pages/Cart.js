@@ -48,7 +48,7 @@ export default props => (
         <img
           onClick={() =>
             swal({
-              title: "Good job!",
+              title: "Nice!",
               text: "We'll get in touch to arrange your installation!",
               icon: "success",
               button: "OK!"
