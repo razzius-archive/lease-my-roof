@@ -1,11 +1,11 @@
 import React from "react"
 import swal from "sweetalert"
 
-const ProductItem = ({ name, price, savings }) => (
+const ProductItem = ({ name, price, savings, imgUrl }) => (
   <div style={{ clear: "both", marginBottom: "5em" }}>
     <img
       style={{ width: "80px", float: "left", marginRight: "1em" }}
-      src="http://placehold.it/200"
+      src={imgUrl}
     />
     <h3
       style={{
