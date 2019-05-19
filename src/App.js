@@ -23,7 +23,6 @@ class App extends React.Component {
     return (
       <Router>
         <Nav />
-        <Logo />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/user" component={User} />
