@@ -45,16 +45,19 @@ const Home = () => {
           </span>
         </section>
       </section>
-      <img src="/assets/images/banner1.jpg" style={{ maxWidth: "100%" }} />
-      <img
-        style={{
-          position: "relative",
-          top: "-320px",
-          left: "52%",
-          width: "250px"
-        }}
-        src="https://files.slack.com/files-pri/TJTC9UDME-FJMACM2TT/circular_animate.gif"
-      />
+      <div style={{ position: "relative" }}>
+        <img src="/assets/images/banner1.jpg" style={{ maxWidth: "100%" }} />
+        <img
+          style={{
+            position: "absolute",
+            top: "110px",
+            left: "52%",
+            width: "250px",
+            zIndex: 1
+          }}
+          src="https://files.slack.com/files-pri/TJTC9UDME-FJMACM2TT/circular_animate.gif"
+        />
+      </div>
       <section class="how-it-works">
         <h2>How It Works</h2>
         <section class="steps">
@@ -107,8 +110,9 @@ const Home = () => {
       <section className="testimonials">
         <span className="testimonial">
           <img
+            style={{ width: "200px", height: "200px" }}
             className="testimonial-img"
-            src="https://files.slack.com/files-pri/TJTC9UDME-FJT4SB2LU/headshot_guy.jpg"
+            src="https://files.slack.com/files-pri/TJTC9UDME-FJTL0EV0D/mobi_jason.png"
           />
           <span>
             <p>
@@ -121,8 +125,9 @@ const Home = () => {
         </span>
         <span className="testimonial">
           <img
+            style={{ width: "200px", height: "200px" }}
             className="testimonial-img"
-            src="https://files.slack.com/files-pri/TJTC9UDME-FJTLA8Y2C/headshot_girl.jpeg"
+            src="https://files.slack.com/files-pri/TJTC9UDME-FJMASUKLZ/mobi_maggie.png"
           />
           <span>
             <p>
