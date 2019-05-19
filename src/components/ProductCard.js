@@ -5,6 +5,7 @@ import "./ProductCard.css"
 
 import { withRouter } from "react-router-dom"
 import { Product } from "../pages"
+import { tsPropertySignature } from "@babel/types";
 
 const ProductCard = props => (
   <div
@@ -14,7 +15,7 @@ const ProductCard = props => (
     }}
   >
     <div style={{ position: "relative", width: "250px" }}>
-      <img src="http://placehold.it/250" />
+      <img src={props.imgUrl} style={{ maxHeight: "200px" }}/>
       <div
         className="button"
         style={{
