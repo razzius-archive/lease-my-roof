@@ -67,6 +67,13 @@ export default props => (
         savings="$15"
         imgUrl="https://res.cloudinary.com/engineering-com/image/upload/w_640,h_440,c_limit,q_auto,f_auto/256px-Small_wind_turbine_on_roof_mgav9o.jpg"
       />
+      <ProductCard
+        addToCart={props.addToCart}
+        name="Garage wind turbine"
+        price="$20"
+        savings="$15"
+        imgUrl="https://i.pinimg.com/originals/1b/49/ca/1b49ca8f226c6f75cbc9c6c9603b1f11.jpg"
+      />
     </ProductRow>
   </div>
 )
