@@ -20,7 +20,7 @@ export default props => (
   <div>
     <h1>
       The cart has {props.cart.length} things.
-      <Link to="/cart">Checkout</Link>
+      <Link to="/cart">Checkout >></Link>
     </h1>
 
     <ProductRow>
@@ -29,18 +29,21 @@ export default props => (
         name="Product 1"
         price="$10"
         savings="$15"
+        imgUrl="/assets/images/engage.jpg"
       />
       <ProductCard
         addToCart={props.addToCart}
         name="Product 2"
         price="$20"
         savings="$15"
+        imgUrl="/assets/images/sense_monitor_2.jpg"
       />
       <ProductCard
         addToCart={props.addToCart}
         name="Product 3"
         price="$30"
         savings="$15"
+        imgUrl="/assets/images/smappee-energy-monitor.jpg"
       />
     </ProductRow>
   </div>
