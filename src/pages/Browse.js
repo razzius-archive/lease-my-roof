@@ -18,11 +18,6 @@ const ProductRow = props => (
 
 export default props => (
   <div>
-    <h1>
-      The cart has {props.cart.length} things.
-      <Link to="/cart">Checkout >></Link>
-    </h1>
-
     <h1
       style={{
         background: "black",
