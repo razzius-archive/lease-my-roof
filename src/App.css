@@ -36,3 +36,17 @@ a:active,
 a:visited {
   color: black;
 }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spin {
+  animation: rotate 10s infinite linear;
+  /* box-shadow: 0px 0px 50px 10px rgba(0, 255, 0, 0.1); */
+  /* border-radius: 100%; */
+}

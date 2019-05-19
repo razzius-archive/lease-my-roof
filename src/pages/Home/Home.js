@@ -48,14 +48,15 @@ const Home = () => {
       <div style={{ position: "relative" }}>
         <img src="/assets/images/banner1.jpg" style={{ maxWidth: "100%" }} />
         <img
+          class="spin"
           style={{
             position: "absolute",
-            top: "110px",
-            left: "52%",
-            width: "250px",
+            top: "50px",
+            left: "55%",
+            width: "320px",
             zIndex: 1
           }}
-          src="https://files.slack.com/files-pri/TJTC9UDME-FJMACM2TT/circular_animate.gif"
+          src="https://files.slack.com/files-pri/TJTC9UDME-FJTM4FYKA/download/circular_economy-10.svg"
         />
       </div>
       <section class="how-it-works">
