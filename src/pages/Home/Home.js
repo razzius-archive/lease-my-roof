@@ -17,8 +17,8 @@ const Home = () => {
         <h2>Featured Products</h2>
         <section class="products">
           <span class="product">
-            <Link to="">
-              <img src="/assets/images/Nest HD.jpg" />
+            <Link to="/browse">
+              <img class="product-img" src="/assets/images/Nest HD.jpg" />
             </Link>
             <p>
               <span>Thermostat - $45/month</span>
@@ -26,20 +26,20 @@ const Home = () => {
             <p>Estimated $90/year savings</p>
           </span>
           <span class="product">
-            <Link to="">
-              <img src="/assets/images/lifx_a19.jpg" />
+            <Link to="/browse">
+              <img class="product-img" src="/assets/images/lifx_a19.jpg" />
             </Link>
             <p>
-              <span>Electric stove - $82/month</span>
+              <span>Lightbulb - $82/month</span>
             </p>
             <p>Estimated $90/year savings</p>
           </span>
           <span class="product">
-            <Link to="">
-              <img src="/assets/images/smappee-energy-monitor.jpg" />
+            <Link to="/browse">
+              <img class="product-img" src="/assets/images/smappee-energy-monitor.jpg" />
             </Link>
             <p>
-              <span>Dishwasher - $65/month</span>
+              <span>Energy Monitor - $65/month</span>
             </p>
             <p>Estimated $90/year savings</p>
           </span>
