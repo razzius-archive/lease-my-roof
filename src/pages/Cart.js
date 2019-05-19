@@ -7,7 +7,14 @@ const ProductItem = ({ name, price, savings }) => (
       style={{ width: "80px", float: "left", marginRight: "1em" }}
       src="http://placehold.it/200"
     />
-    <h3>{name}</h3>
+    <h3
+      style={{
+        display: "block",
+        justifyContent: "left"
+      }}
+    >
+      {name}
+    </h3>
     {/* negative margins yikes */}
     <p style={{ float: "left", marginTop: "-20px" }}>{price} / month</p>
     <p style={{ float: "left", color: "green", marginLeft: "-80px" }}>
@@ -51,5 +58,14 @@ export default props => (
         />
       </div>
     </div>
+    <img
+      style={{
+        position: "absolute",
+        right: "240px",
+        width: "200px",
+        top: "440px"
+      }}
+      src="https://files.slack.com/files-pri/TJTC9UDME-FJTLV5H9N/mobi_hack_graph2-04.png"
+    />
   </div>
 )

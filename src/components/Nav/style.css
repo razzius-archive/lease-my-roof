@@ -8,7 +8,8 @@ a {
   text-decoration: none;
 }
 
-#how-it-works, #browse {
+#how-it-works,
+#browse {
   width: 15%;
   padding-top: 30px;
   float: left;
@@ -21,9 +22,21 @@ a {
   text-align: center;
 }
 
-#cart, #login {
+#cart,
+#login {
   width: 15%;
   padding-top: 30px;
   float: right;
   text-align: center;
+}
+
+.how-it-works {
+  margin: auto;
+  max-width: 800px;
+  font-size: 22px;
+  /* font-weight: bold; */
+}
+
+.how-it-works img {
+  width: 250px;
 }
