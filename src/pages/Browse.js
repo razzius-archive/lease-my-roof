@@ -32,24 +32,40 @@ export default props => (
     <ProductRow>
       <ProductCard
         addToCart={props.addToCart}
-        name="Product 1"
+        name="Engage Energy Monitor"
         price="$10"
         savings="$15"
         imgUrl="/assets/images/engage.jpg"
       />
       <ProductCard
         addToCart={props.addToCart}
-        name="Product 2"
+        name="Sense Monitor"
         price="$20"
         savings="$15"
         imgUrl="/assets/images/sense_monitor_2.jpg"
       />
       <ProductCard
         addToCart={props.addToCart}
-        name="Product 3"
+        name="Smappie Monitor"
         price="$30"
         savings="$15"
         imgUrl="/assets/images/smappee-energy-monitor.jpg"
+      />
+    </ProductRow>
+    <ProductRow>
+      <ProductCard
+        addToCart={props.addToCart}
+        name="Solar Array"
+        price="$55"
+        savings="$25"
+        imgUrl="https://mobileimages.lowes.com/product/converted/855172/855172003676.jpg"
+      />
+      <ProductCard
+        addToCart={props.addToCart}
+        name="Garage wind turbine"
+        price="$20"
+        savings="$15"
+        imgUrl="https://res.cloudinary.com/engineering-com/image/upload/w_640,h_440,c_limit,q_auto,f_auto/256px-Small_wind_turbine_on_roof_mgav9o.jpg"
       />
     </ProductRow>
   </div>
