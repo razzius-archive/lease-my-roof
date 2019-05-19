@@ -10,8 +10,8 @@ class App extends React.Component {
   state = {
     cart: [
       // uncomment to have a starting shopping cart
-      // { name: "Product 1", price: "$100", savings: "$80" },
-      // { name: "Product 1", price: "$100", savings: "$80" }
+      { name: "Product 1", price: "$100", savings: "$80" },
+      { name: "Product 1", price: "$100", savings: "$80" }
     ]
   }
 
@@ -23,7 +23,6 @@ class App extends React.Component {
     return (
       <Router>
         <Nav />
-        <Logo />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/user" component={User} />

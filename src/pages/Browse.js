@@ -23,6 +23,17 @@ export default props => (
       <Link to="/cart">Checkout</Link>
     </h1>
 
+    <h1
+      style={{
+        background: "black",
+        color: "white",
+        height: "140px",
+        paddingTop: "110px"
+      }}
+    >
+      Products
+    </h1>
+
     <ProductRow>
       <ProductCard
         addToCart={props.addToCart}
