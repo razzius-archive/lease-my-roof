@@ -38,6 +38,10 @@ p {
   margin: 10px 30px 10px 30px;
 }
 
+.product-img {
+  height: 250px;
+}
+
 .testimonial-img {
   max-height: 350px;
   margin-right: 10px;
