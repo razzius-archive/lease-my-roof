@@ -30,7 +30,7 @@ export default props => (
   <div>
     <h1
       style={{
-        background: "black",
+        background: "#52ab99",
         color: "white",
         height: "140px",
         paddingTop: "110px"
