@@ -17,6 +17,7 @@ class App extends React.Component {
 
   addToCart = product => {
     this.setState({ cart: this.state.cart.concat(product) })
+    console.log(this.state.cart)
   }
 
   render() {
